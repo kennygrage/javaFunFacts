@@ -13,8 +13,11 @@ import android.widget.TextView;
 
 import org.w3c.dom.Text;
 
+
+
 public class FunFactsActivity extends AppCompatActivity {
-    private TextView fact;
+    private TextView factArea;
+    private FactBook mFactBook = new FactBook(this);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,13 +25,16 @@ public class FunFactsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_fun_facts);
 
         //Declare view variables and assign them the views from the layout file
-        fact = (TextView) findViewById(R.id.factTextView);
+        factArea = (TextView) findViewById(R.id.factTextView);
         Button showFactButton = (Button) findViewById(R.id.showFactButton);
         View.OnClickListener listener = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // The button was clicked. So update the fact label with a new fact
-                fact.setText(R.string.ostrich);
+                String fact = mFactBook.getFact();
+
+                // Update the label with our dynamic fact
+                factArea.setText(fact);
+
             }
         };
         showFactButton.setOnClickListener(listener);

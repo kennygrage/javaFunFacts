@@ -5,6 +5,14 @@
 
     <string name="ants">Ants stretch when they wake up in the morning.</string>
     <string name="ostrich">Ostriches can run faster than horses.</string>
+    <string name="olympic">Olympic gold medals are actually made of silver.</string>
+    <string name="bones">You are born with 300 bones; by the time you are an adult you will have 206.</string>
+    <string name="sun_light">It takes about 8 minutes for light from the Sun to reach Earth.</string>
+    <string name="bamboo">Some bamboo plants can grow almost a meter in just one day.</string>
+    <string name="florida">The state of Florida is bigger than England.</string>
+    <string name="penguins">Some penguins can leap 2-3 meters out of the water.</string>
+    <string name="habit">On average, it takes 66 days to form a new habit.</string>
+    <string name="mammoths">Mammoths still walked the earth when the Great Pyramid was being built.</string>
 
     <string name="light_blue">#39add1</string>
     <string name="dark_blue">#3079ab</string>
@@ -20,5 +28,6 @@
     <string name="pink">#f092b0</string>
     <string name="light_grey">#b7c0c7</string>
     <string name="white">#ffffff</string>
+
 
 </resources>
