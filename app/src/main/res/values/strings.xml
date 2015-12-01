@@ -1,33 +1,37 @@
 <resources>
     <string name="app_name">Fun Facts</string>
     <string name="did_you_know">Did you know?</string>
-    <string name="show_another">Show Another Fun Fact</string>
+    <string name="show_another">Show Your First Fun Fact</string>
+    <string name="starting_text">Press button for your first fact.</string>
 
-    <string name="ants">Ants stretch when they wake up in the morning.</string>
-    <string name="ostrich">Ostriches can run faster than horses.</string>
-    <string name="olympic">Olympic gold medals are actually made of silver.</string>
-    <string name="bones">You are born with 300 bones; by the time you are an adult you will have 206.</string>
-    <string name="sun_light">It takes about 8 minutes for light from the Sun to reach Earth.</string>
-    <string name="bamboo">Some bamboo plants can grow almost a meter in just one day.</string>
-    <string name="florida">The state of Florida is bigger than England.</string>
-    <string name="penguins">Some penguins can leap 2-3 meters out of the water.</string>
-    <string name="habit">On average, it takes 66 days to form a new habit.</string>
-    <string name="mammoths">Mammoths still walked the earth when the Great Pyramid was being built.</string>
+    <string-array name="facts">
+        <item>Ants stretch when they wake up in the morning.</item>
+        <item>Ostriches can run faster than horses.</item>
+        <item>Olympic gold medals are actually made of silver.</item>
+        <item>You are born with 300 bones; by the time you are an adult you will have 206.</item>
+        <item>It takes about 8 minutes for light from the Sun to reach Earth.</item>
+        <item>Some bamboo plants can grow almost a meter in just one day.</item>
+        <item>The state of Florida is bigger than England.</item>
+        <item>Some penguins can leap 2-3 meters out of the water.</item>
+        <item>On average, it takes 66 days to form a new habit.</item>
+        <item>Mammoths still walked the earth when the Great Pyramid was being built.</item>
+    </string-array>
 
-    <string name="light_blue">#39add1</string>
-    <string name="dark_blue">#3079ab</string>
-    <string name="mauve">#c25975</string>
-    <string name="red">#e15258</string>
-    <string name="orange">#f9845b</string>
-    <string name="lavender">#838cc7</string>
-    <string name="purple">#7d669e</string>
-    <string name="aqua">#53bbb4</string>
+    <string-array name="colors">
+        <item>#39add1</item>     //light blue
+        <item>#3079ab</item>     //dark blue
+        <item>#c25975</item>     //mauve
+        <item>#e15258</item>     //red
+        <item>#f9845b</item>     //orange
+        <item>#838cc7</item>     //lavender
+        <item>#7d669e</item>     //purple
+        <item>#53bbb4</item>     //aqua
+        <item>#e0ab18</item>     //mustard
+        <item>#637a91</item>     //dark grey
+        <item>#f092b0</item>     //pink
+    </string-array>
+
     <string name="green">#51b46d</string>
-    <string name="mustard">#e0ab18</string>
-    <string name="dark_grey">#637a91</string>
-    <string name="pink">#f092b0</string>
     <string name="light_grey">#b7c0c7</string>
     <string name="white">#ffffff</string>
-
-
 </resources>

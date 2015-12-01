@@ -10,25 +10,12 @@ import android.content.Context;
 import java.util.Random;
 
 public class FactBook {
-    public Context mContext;
-    public FactBook(Context mContext) {
-        this.mContext = mContext;
-    }
+
 
     //Member variables (properties about the object)
-        public String[] mFacts = {
-          mContext.getResources().getString(R.string.ants)
-//                    R.string.ants,
-//        Integer.toString(R.string.ostrich),
-//                Integer.toString(R.string.olympic),
-//                Integer.toString(R.string.bones),
-//                Integer.toString(R.string.sun_light),
-//                Integer.toString(R.string.bamboo),
-//                Integer.toString(R.string.florida),
-//                Integer.toString(R.string.penguins),
-//                Integer.toString(R.string.habit),
-//                Integer.toString(R.string.mammoths)
-        };
+        public String[] mFacts = {};
+        public String[] mColors = {};
+
 
     //Method (abilities the object can do)
     public String getFact() {
@@ -36,10 +23,22 @@ public class FactBook {
 
         // Randomly select a fact
         Random randomGenerator = new Random();
-        int randomNumber = randomGenerator.nextInt(mFacts.length); //random number between 1 and 3
+        int randomNumber = randomGenerator.nextInt(mFacts.length); //random number between 1 and the length of mFacts
 
         fact = mFacts[randomNumber];
 
         return fact;
+    }
+
+    public String getColor() {
+        String color = "";
+
+        // Randomly select a fact
+        Random randomGenerator = new Random();
+        int randomNumber = randomGenerator.nextInt(mColors.length); //random number between 1 and the length of mColors
+
+        color = mColors[randomNumber];
+
+        return color;
     }
 }
