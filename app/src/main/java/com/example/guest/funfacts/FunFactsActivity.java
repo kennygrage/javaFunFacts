@@ -23,7 +23,6 @@ public class FunFactsActivity extends AppCompatActivity {
     private Button buttonText;
     private FactBook mFactBook = new FactBook();
     private RelativeLayout view;
-    public static final String TAG = "color";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,7 +46,6 @@ public class FunFactsActivity extends AppCompatActivity {
                 // Update the label with our dynamic fact
                 factArea.setText(fact);
                 buttonText.setText("Show Another Fun Fact");
-                Log.d(TAG, color);
                 view.setBackgroundColor(Color.parseColor(color));
 
 
